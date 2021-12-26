@@ -1,7 +1,7 @@
 package com.kakaovx.practice.data.mapper.repo
 
 import com.kakaovx.practice.data.model.repo.RepoInfoResponse
-import com.kakaovx.practice.cleanarchitecturepractice.domain.model.repo.RepoInfoDataModel
+import com.kakaovx.practice.domain.model.repo.RepoInfoDataModel
 
 fun mapperToRepoInfo(data: RepoInfoResponse): RepoInfoDataModel {
     return RepoInfoDataModel(

@@ -2,8 +2,8 @@ package com.kakaovx.practice.data.repository.repo
 
 import com.kakaovx.practice.data.datasource.repo.RepoDataSource
 import com.kakaovx.practice.data.mapper.repo.mapperToRepoInfo
-import com.kakaovx.practice.cleanarchitecturepractice.domain.model.repo.RepoInfoDataModel
-import com.kakaovx.practice.cleanarchitecturepractice.domain.repository.repo.RepoRepository
+import com.kakaovx.practice.domain.model.repo.RepoInfoDataModel
+import com.kakaovx.practice.domain.repository.repo.RepoRepository
 
 class RepoRepositoryImpl(
     private val repoDataSource: RepoDataSource
