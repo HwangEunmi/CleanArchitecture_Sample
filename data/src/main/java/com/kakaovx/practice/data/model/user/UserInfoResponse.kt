@@ -1,4 +1,4 @@
-package com.kakaovx.practice.cleanarchitecturepractice.data.model.user
+package com.kakaovx.practice.data.model.user
 
 data class UserInfoResponse(
     val id: Int,

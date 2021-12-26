@@ -1,6 +1,7 @@
-package com.kakaovx.practice.cleanarchitecturepractice.data.datasource.repo
+package com.kakaovx.practice.data.datasource.repo
 
-import com.kakaovx.practice.cleanarchitecturepractice.data.api.RepoApi
+import com.kakaovx.practice.data.api.RepoApi
+import com.kakaovx.practice.data.datasource.repo.RepoDataSource
 
 class RepoDataSourceImpl(
     private val service: RepoApi

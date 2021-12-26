@@ -1,4 +1,4 @@
-package com.kakaovx.practice.cleanarchitecturepractice.data.model.repo
+package com.kakaovx.practice.data.model.repo
 
 data class RepoInfoResponse(
     val id: Int,

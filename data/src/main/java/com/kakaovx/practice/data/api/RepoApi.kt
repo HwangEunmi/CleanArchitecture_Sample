@@ -1,6 +1,6 @@
-package com.kakaovx.practice.cleanarchitecturepractice.data.api
+package com.kakaovx.practice.data.api
 
-import com.kakaovx.practice.cleanarchitecturepractice.data.model.repo.RepoInfoResponse
+import com.kakaovx.practice.data.model.repo.RepoInfoResponse
 import retrofit2.http.GET
 import retrofit2.http.Path
 

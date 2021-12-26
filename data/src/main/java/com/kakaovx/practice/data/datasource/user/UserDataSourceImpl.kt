@@ -1,6 +1,7 @@
-package com.kakaovx.practice.cleanarchitecturepractice.data.datasource.user
+package com.kakaovx.practice.data.datasource.user
 
-import com.kakaovx.practice.cleanarchitecturepractice.data.api.UserApi
+import com.kakaovx.practice.data.api.UserApi
+import com.kakaovx.practice.data.datasource.user.UserDataSource
 
 class UserDataSourceImpl(
     private val service: UserApi

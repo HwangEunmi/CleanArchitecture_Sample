@@ -1,7 +1,7 @@
-package com.kakaovx.practice.cleanarchitecturepractice.data.repository.repo
+package com.kakaovx.practice.data.repository.repo
 
-import com.kakaovx.practice.cleanarchitecturepractice.data.datasource.repo.RepoDataSource
-import com.kakaovx.practice.cleanarchitecturepractice.data.mapper.repo.mapperToRepoInfo
+import com.kakaovx.practice.data.datasource.repo.RepoDataSource
+import com.kakaovx.practice.data.mapper.repo.mapperToRepoInfo
 import com.kakaovx.practice.cleanarchitecturepractice.domain.model.repo.RepoInfoDataModel
 import com.kakaovx.practice.cleanarchitecturepractice.domain.repository.repo.RepoRepository
 
