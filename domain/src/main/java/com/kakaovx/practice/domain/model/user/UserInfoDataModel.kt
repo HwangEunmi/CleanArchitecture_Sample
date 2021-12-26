@@ -1,4 +1,4 @@
-package com.kakaovx.practice.cleanarchitecturepractice.domain.model.user
+package com.kakaovx.practice.domain.model.user
 
 data class UserInfoDataModel(
     val userId: Int,

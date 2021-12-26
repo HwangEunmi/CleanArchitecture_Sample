@@ -1,4 +1,4 @@
-package com.kakaovx.practice.cleanarchitecturepractice.domain.model.repo
+package com.kakaovx.practice.domain.model.repo
 
 data class RepoInfoDataModel(
     val repoId: Int,

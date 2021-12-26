@@ -1,7 +1,7 @@
-package com.kakaovx.practice.cleanarchitecturepractice.domain.usecase.repo
+package com.kakaovx.practice.domain.usecase.repo
 
-import com.kakaovx.practice.cleanarchitecturepractice.domain.model.repo.RepoInfoDataModel
-import com.kakaovx.practice.cleanarchitecturepractice.domain.repository.repo.RepoRepository
+import com.kakaovx.practice.domain.model.repo.RepoInfoDataModel
+import com.kakaovx.practice.domain.repository.repo.RepoRepository
 
 class GetRepoInfoUseCase(private val repository: RepoRepository) {
     suspend operator fun invoke(params: Params): RepoInfoDataModel {
