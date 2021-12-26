@@ -6,4 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".ui.MainActivity">
 
+    <Button
+        android:id="@+id/btn_move_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Move to Detail"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
