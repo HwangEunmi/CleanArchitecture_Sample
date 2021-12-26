@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/CleanArchitecturePractice.iml" filepath="$PROJECT_DIR$/.idea/modules/CleanArchitecturePractice.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CleanArchitecturePractice.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CleanArchitecturePractice.app.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/data/CleanArchitecturePractice.data.iml" filepath="$PROJECT_DIR$/.idea/modules/data/CleanArchitecturePractice.data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/CleanArchitecturePractice.domain.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/CleanArchitecturePractice.domain.iml" />
     </modules>
   </component>
 </project>
