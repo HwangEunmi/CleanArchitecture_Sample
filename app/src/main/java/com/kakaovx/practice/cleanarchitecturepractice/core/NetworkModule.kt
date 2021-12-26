@@ -2,8 +2,8 @@ package com.kakaovx.practice.cleanarchitecturepractice.core
 
 import android.util.Log
 import com.kakaovx.practice.cleanarchitecturepractice.BuildConfig
-import com.kakaovx.practice.cleanarchitecturepractice.data.api.RepoApi
-import com.kakaovx.practice.cleanarchitecturepractice.data.api.UserApi
+import com.kakaovx.practice.data.api.RepoApi
+import com.kakaovx.practice.data.api.UserApi
 import okhttp3.Interceptor
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor

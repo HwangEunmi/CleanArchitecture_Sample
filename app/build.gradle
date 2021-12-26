@@ -36,10 +36,19 @@ android {
 }
 
 dependencies {
+    implementation project(path: ':presentation')
+    implementation project(path: ':domain')
+    implementation project(path: ':data')
+
     implementation "androidx.core:core-ktx:$ktx_version"
     implementation "androidx.appcompat:appcompat:$appcompat_version"
     implementation "com.google.android.material:material:$material_version"
     implementation "androidx.constraintlayout:constraintlayout:$constraintlayout_version"
+    // Retrofit
+    implementation "com.squareup.retrofit2:retrofit:$retrofit_version"
+    implementation "com.squareup.retrofit2:converter-gson:$retrofit_version"
+    implementation "com.squareup.retrofit2:converter-scalars:$retrofit_version"
+    implementation "com.squareup.okhttp3:logging-interceptor:$okhttp_logging_version"
     // Koin
     implementation "io.insert-koin:koin-android:$koin_version"
     testImplementation 'junit:junit:4.+'

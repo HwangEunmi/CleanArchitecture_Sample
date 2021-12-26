@@ -1,6 +1,6 @@
-package com.kakaovx.practice.cleanarchitecturepractice.presentation.model.repo
+package com.kakaovx.practice.presentation.model
 
-import com.kakaovx.practice.cleanarchitecturepractice.domain.model.repo.RepoInfoDataModel
+import com.kakaovx.practice.domain.model.repo.RepoInfoDataModel
 
 fun RepoInfoDataModel.Companion.makeRepoInfoUiData(data: RepoInfoDataModel): RepoInfoDataModel {
     with(data) {

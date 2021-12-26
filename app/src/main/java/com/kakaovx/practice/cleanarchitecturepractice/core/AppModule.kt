@@ -1,22 +1,22 @@
 package com.kakaovx.practice.cleanarchitecturepractice.core
 
-import com.kakaovx.practice.cleanarchitecturepractice.data.datasource.repo.RepoDataSource
-import com.kakaovx.practice.cleanarchitecturepractice.data.datasource.repo.RepoDataSourceImpl
-import com.kakaovx.practice.cleanarchitecturepractice.data.datasource.user.UserDataSource
-import com.kakaovx.practice.cleanarchitecturepractice.data.datasource.user.UserDataSourceImpl
-import com.kakaovx.practice.cleanarchitecturepractice.data.repository.repo.RepoRepositoryImpl
-import com.kakaovx.practice.cleanarchitecturepractice.data.repository.user.UserRepositoryImpl
-import com.kakaovx.practice.cleanarchitecturepractice.domain.repository.repo.RepoRepository
-import com.kakaovx.practice.cleanarchitecturepractice.domain.repository.user.UserRepository
-import com.kakaovx.practice.cleanarchitecturepractice.domain.usecase.repo.GetRepoInfoUseCase
-import com.kakaovx.practice.cleanarchitecturepractice.domain.usecase.user.GetUserInfoUseCase
-import com.kakaovx.practice.cleanarchitecturepractice.domain.usecase.user.GetUserListUseCase
-import com.kakaovx.practice.cleanarchitecturepractice.presentation.ui.MainViewModel
+import com.kakaovx.practice.data.datasource.repo.RepoDataSource
+import com.kakaovx.practice.data.datasource.repo.RepoDataSourceImpl
+import com.kakaovx.practice.data.datasource.user.UserDataSource
+import com.kakaovx.practice.data.datasource.user.UserDataSourceImpl
+import com.kakaovx.practice.data.repository.repo.RepoRepositoryImpl
+import com.kakaovx.practice.data.repository.user.UserRepositoryImpl
+import com.kakaovx.practice.domain.repository.repo.RepoRepository
+import com.kakaovx.practice.domain.repository.user.UserRepository
+import com.kakaovx.practice.domain.usecase.repo.GetRepoInfoUseCase
+import com.kakaovx.practice.domain.usecase.user.GetUserInfoUseCase
+import com.kakaovx.practice.domain.usecase.user.GetUserListUseCase
+import com.kakaovx.practice.presentation.ui.DetailViewModel
 import org.koin.androidx.viewmodel.dsl.viewModel
 import org.koin.dsl.module
 
 private val activityViewModel = module {
-    viewModel { MainViewModel(get(), get(), get()) }
+    viewModel { DetailViewModel(get(), get(), get()) }
 }
 
 private val dataModule = module {
