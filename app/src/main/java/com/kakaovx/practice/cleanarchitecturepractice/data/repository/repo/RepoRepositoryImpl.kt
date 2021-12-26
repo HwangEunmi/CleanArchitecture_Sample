@@ -28,3 +28,6 @@ class RepoRepositoryImpl(
 // 각 의존성을 모두 알고 있는 계층은 Data 계층밖에 없다.
 // (Domain 계층은 다른 레이어를 대상으로 의존성을 가지지 않고,
 // Data 계층은 Domain 계층을 대상으로 의존성을 가지므로)
+
+// 3. << UseCase에 위치해야 한다? >>
+// UseCasesms Data Logic의 마지막 선상 같은 느낌이니까..?
