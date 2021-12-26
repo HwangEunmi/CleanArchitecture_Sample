@@ -1,18 +1,18 @@
-package com.kakaovx.practice.cleanarchitecturepractice.presentation.ui
+package com.kakaovx.practice.presentation.ui
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.kakaovx.practice.cleanarchitecturepractice.domain.model.repo.RepoInfoDataModel
-import com.kakaovx.practice.cleanarchitecturepractice.domain.model.user.UserInfoDataModel
-import com.kakaovx.practice.cleanarchitecturepractice.domain.usecase.repo.GetRepoInfoUseCase
-import com.kakaovx.practice.cleanarchitecturepractice.domain.usecase.user.GetUserInfoUseCase
-import com.kakaovx.practice.cleanarchitecturepractice.domain.usecase.user.GetUserListUseCase
-import com.kakaovx.practice.cleanarchitecturepractice.presentation.model.repo.makeRepoInfoUiData
+import com.kakaovx.practice.domain.model.repo.RepoInfoDataModel
+import com.kakaovx.practice.domain.model.user.UserInfoDataModel
+import com.kakaovx.practice.domain.usecase.repo.GetRepoInfoUseCase
+import com.kakaovx.practice.domain.usecase.user.GetUserInfoUseCase
+import com.kakaovx.practice.domain.usecase.user.GetUserListUseCase
+import com.kakaovx.practice.presentation.model.makeRepoInfoUiData
 import kotlinx.coroutines.launch
 
-class MainViewModel(
+class DetailViewModel(
     private val getRepoInfoUseCase: GetRepoInfoUseCase,
     private val getUserInfoUseCase: GetUserInfoUseCase,
     private val getUserListUseCase: GetUserListUseCase

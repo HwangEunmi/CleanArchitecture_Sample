@@ -1,17 +1,17 @@
-package com.kakaovx.practice.cleanarchitecturepractice.presentation.ui
+package com.kakaovx.practice.presentation.ui
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.kakaovx.practice.cleanarchitecturepractice.databinding.ActivityMainBinding
+import com.kakaovx.practice.presentation.databinding.ActivityDetailBinding
 import org.koin.android.ext.android.inject
 
-class MainActivity : AppCompatActivity() {
-    private val viewModel: MainViewModel by inject()
-    private lateinit var binding: ActivityMainBinding
+class DetailActivity : AppCompatActivity() {
+    private val viewModel: DetailViewModel by inject()
+    private lateinit var binding: ActivityDetailBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityMainBinding.inflate(layoutInflater)
+        binding = ActivityDetailBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         setListener()
