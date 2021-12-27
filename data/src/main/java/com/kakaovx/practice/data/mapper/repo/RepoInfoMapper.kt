@@ -24,3 +24,4 @@ fun mapperToRepoInfo(data: RepoInfoResponse): RepoInfoDataModel {
 // (현재 회사 프로젝트는 클래스로 만들고 있음)
 
 // 반면에 함수로 만든다면 객체생성을 하지 않아도 된다.
+// -> 이건 취향 차이일 듯.. (oop vs fp) 
