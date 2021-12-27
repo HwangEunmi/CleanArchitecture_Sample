@@ -22,6 +22,9 @@ class RepoRepositoryImpl(
 // 이때 Mapper는 Data 계층의 모델을 Domain 계층의 모델로 변환해 주는 역할을 하는데,
 // DataSource보다는 Repository가 느낌상 더 Domain에 가까우니까 Repository에 위치해야한다..?
 
+// + 또 Repository는 DTO 대신 도메인모델을 반환해야 하는데, 이럴려면 Mapper가 필요하니까..?
+
+
 // 2. << DataSource에 위치해야 한다? >>
 // Mapping을 수행하려면 Data 계층 의존성과 Domain 계층 의존성 모두를 알고 있어야 하는데
 // (Data -> Domain 이므로)
