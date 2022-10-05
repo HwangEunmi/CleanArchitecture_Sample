@@ -1,13 +1,17 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.lifecycle:lifecycle-runtime-ktx:2.4.0@aar">
     <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/9c6d95246a7bbac6d8384f68dfe1284c/transformed/jetified-lifecycle-runtime-ktx-2.4.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9c6d95246a7bbac6d8384f68dfe1284c/transformed/jetified-lifecycle-runtime-ktx-2.4.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9c6d95246a7bbac6d8384f68dfe1284c/transformed/jetified-lifecycle-runtime-ktx-2.4.0/res" />
+      <root url="file://$USER_HOME$/Downloads/brockoli-fragmentsharedelements-87421a65f2aa/gradle/wrapper/caches/transforms-3/9c6d95246a7bbac6d8384f68dfe1284c/transformed/jetified-lifecycle-runtime-ktx-2.4.0/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/Downloads/brockoli-fragmentsharedelements-87421a65f2aa/gradle/wrapper/caches/transforms-3/9c6d95246a7bbac6d8384f68dfe1284c/transformed/jetified-lifecycle-runtime-ktx-2.4.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/Downloads/brockoli-fragmentsharedelements-87421a65f2aa/gradle/wrapper/caches/transforms-3/9c6d95246a7bbac6d8384f68dfe1284c/transformed/jetified-lifecycle-runtime-ktx-2.4.0/res" />
-      <root url="file://$USER_HOME$/Downloads/brockoli-fragmentsharedelements-87421a65f2aa/gradle/wrapper/caches/transforms-3/9c6d95246a7bbac6d8384f68dfe1284c/transformed/jetified-lifecycle-runtime-ktx-2.4.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/Downloads/brockoli-fragmentsharedelements-87421a65f2aa/gradle/wrapper/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-runtime-ktx/2.4.0/6d338022f8fa82c24121d5d249fe5daeeb297742/lifecycle-runtime-ktx-2.4.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-runtime-ktx/2.4.0/6d338022f8fa82c24121d5d249fe5daeeb297742/lifecycle-runtime-ktx-2.4.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
