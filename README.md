@@ -6,6 +6,7 @@
 - 코루틴을 사용하여 더욱 더 유연하게 구현합니다.
 - 로컬 캐시를 사용합니다.
 - Jetpack DefaultLifecycleObserver를 사용하여 각 라이프사이클에 맞는 행동을 구현합니다.
+- Retrofit2 Exception 핸들링을 신경써서 구현합니다.  
 - ...
 </br>
 
